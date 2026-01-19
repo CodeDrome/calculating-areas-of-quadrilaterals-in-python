@@ -1,29 +1,23 @@
-
-def square(side):
+def square(side: float) -> float:
 
     return side ** 2
 
-
-def rectangle(width, height):
+def rectangle(width: float, height: float) -> float:
 
     return width * height
 
-
-def parallelogram(side, height):
+def parallelogram(side: float, height: float) -> float:
 
     return side * height
 
-
-def trapezium(height, width_1, width_2):
+def trapezium(height: float, width_1: float, width_2: float) -> float:
 
     return 0.5 * height * ( width_1 + width_2 )
 
-
-def rhombus(height, width):
+def rhombus(height: float, width: float) -> float:
 
     return 0.5 * height * width
 
-
-def kite(height, width):
+def kite(height: float, width: float) -> float:
 
     return 0.5 * height * width
